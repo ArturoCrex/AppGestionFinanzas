@@ -1,0 +1,1 @@
+function r(e,n="EUR"){return new Intl.NumberFormat(t(n),{style:"currency",currency:n,minimumFractionDigits:2,maximumFractionDigits:2}).format(e)}function t(e){return{EUR:"es-ES",USD:"en-US",GBP:"en-GB",MXN:"es-MX",ARS:"es-AR",COP:"es-CO"}[e]||"es-ES"}export{r as f};
